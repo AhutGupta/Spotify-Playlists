@@ -19,7 +19,8 @@ pip install spotipy
 
 ### Run:
 In Terminal, `cd` to **src**
-**python MainLogic.py**
+
+`python MainLogic.py`
 
 When running first time, you will be redirected to Login into your Spotify Account. Login using your credentials and allow the application to connect to your account.
 You will be redirected to a url which might be invalid. 
