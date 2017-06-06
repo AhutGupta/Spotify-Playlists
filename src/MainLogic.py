@@ -30,7 +30,7 @@ def get_tracks():
 
 if token:
     sp = spotipy.Spotify(auth=token)
-    print "User Information:"
+    #print "User Information:"
     user = sp.current_user()
     u_id = user["id"]
     #print json.dumps(user, indent=4, sort_keys=True)
